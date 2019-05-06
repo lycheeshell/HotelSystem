@@ -1,0 +1,157 @@
+
+/**加载等待条*/
+.div_waitBarback{
+	position:absolute;
+	cursor1:wait;
+	top: 40%;
+	left: 50%;
+	width:auto;
+	height:16px;
+	margin-left: -80px;
+	padding:12px 5px 10px 30px;
+	background:#fff url('../images/pagination_loading.gif') no-repeat scroll 5px 10px;
+	border:2px solid #6593CF;
+	color:#222;
+	z-index: 10002;
+}
+
+/**加载等待条可选图标样式1*/
+.div_waitBar{
+	position:absolute;
+	cursor: wait;
+	top: 40%;
+	left: 50%;
+	width:auto;
+	height:16px;
+	margin-left: -80px;
+	padding:12px 15px 10px 43px;
+	background:#fff url('../images/loading1.gif') no-repeat scroll -8px -13px;
+	border:2px solid #9ACD32;
+	color:#222;
+	z-index: 10002;
+}
+
+/**加载等待条可选图标样式fixed*/
+.div_waitBar_fixed{
+	position: fixed;
+	cursor:wait;
+	top: 40%;
+	left: 50%;
+	width:auto;
+	height:16px;
+	margin-left: -80px;
+	padding:12px 15px 10px 43px;
+	background:#fff url('../images/loading1.gif') no-repeat scroll -8px -13px;
+	border:2px solid #9ACD32;
+	color:#222;
+	z-index: 10002;
+}
+
+.div_waitBar1{
+	position:absolute;
+	cursor1:wait;
+	top: 40%;
+	left: 50%;
+	width:auto;
+	height:16px;
+	margin-left: -80px;
+	padding:12px 15px 10px 43px;
+	background:#fff url('../images/loading1.gif') no-repeat scroll -8px -13px;
+	border:2px solid #6593CF;
+	color:#222;
+	z-index: 10002;
+}
+
+.img_only{
+	position:absolute;
+	cursor1:wait;
+	top: 40%;
+	left: 50%;
+	width:auto;
+	height:16px;
+	margin-left: -35px;
+	padding:12px 15px 10px 43px;
+	background:url('../images/loading1.gif') no-repeat 0px -19px;
+	z-index: 10002;
+}
+
+/**加载等待条可选图标样式2*/
+.div_waitBar2{
+	position:absolute;
+	cursor1:wait;
+	top: 40%;
+	left: 50%;
+	width:auto;
+	height:16px;
+	margin-left: -80px;
+	padding:12px 5px 10px 33px;
+	background:#fff url('../images/loading2.gif') no-repeat scroll 0px 3px;
+	border:2px solid #9ACD32;
+	color:#222;
+	z-index: 10002;
+}
+.div_waitBar22{
+	position:absolute;
+	cursor1:wait;
+	top: 40%;
+	left: 50%;
+	width:auto;
+	height:16px;
+	margin-left: -80px;
+	padding:12px 5px 10px 33px;
+	background:#fff url('../images/loading2.gif') no-repeat scroll 0px 3px;
+	border:2px solid #6593CF;
+	color:#222;
+	z-index: 10002;
+}
+
+
+/**加载等待条可选图标样式3*/
+.div_waitBar3{
+	position:absolute;
+	cursor1:wait;
+	top: 40%;
+	left: 50%;
+	width:auto;
+	height:16px;
+	margin-left: -80px;
+	padding:12px 5px 10px 30px;
+	background:#fff url('../images/loading3.gif') no-repeat scroll 5px 10px;
+	border:2px solid #9ACD32;
+	color:#222;
+	z-index: 10002;
+}
+
+.div_waitBar4{
+	position:absolute;
+	cursor1:wait;
+	top: 40%;
+	left: 50%;
+	width:auto;
+	height:16px;
+	margin-left: -80px;
+	padding:12px 5px 10px 38px;
+	background:#fff url('../images/loading4.gif') no-repeat scroll 5px 5px;
+	border:2px solid #6593CF;
+	color:#222;
+	z-index: 10002;
+}
+
+/*
+**遮罩*******
+*/
+.WaitBarDivMask {
+	
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 99;
+	filter: alpha(opacity =   50);
+	-moz-opacity: 0.50;
+	opacity: 0.50;
+	zoom: 1;
+	/*background: url(../images/base_overlay_bg.png);*/
+	background:#ccc;
+}

@@ -1,0 +1,56 @@
+.main{
+    height:auto;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.room_name{
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    margin: 0 0 50px 0;
+}
+
+.order{
+    width: 100%;
+}
+
+.order th{
+    height: 100px;
+    border: 1px solid #eee;
+}
+
+
+.order td{
+    height: 100px;
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+.order td{
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+.S_DISSCOUNT_DATE{
+    color: #89D04F;
+}
+
+.I_DISCOUNT{
+    color: #FF7315;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FF7315;
+    color: white;
+}
+
+.room_name{
+    color: #1868BD;
+}
+
+.COUNT_TOTAL{
+    color: #FF7315;
+}

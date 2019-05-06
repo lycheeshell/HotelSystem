@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="HotelSystem">
+    <output-path>$PROJECT_DIR$/out/artifacts/HotelSystem</output-path>
+    <root id="root">
+      <element id="module-output" name="testSpringMVC" />
+    </root>
+  </artifact>
+</component>

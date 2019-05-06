@@ -1,0 +1,5 @@
+button{border:0px solid #45b6d7;border-radius:6px;margin:5px 5px 0px 10px;}
+button{background:#fb8a48;border-radius:4px;margin-right:5px;padding:0 5px;line-height:25px;min-width:40px;color:#fff;cursor:pointer;border-right:0px solid #65c9e6;text-align:center;position:relative;float: left}
+button:hover{background:#e8722d;border-radius:4px;transition:background 0.5s ease;}
+button a{color:#fff;cursor:pointer;}
+.btn{margin-left: 310px}
